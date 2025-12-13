@@ -1,0 +1,44 @@
+# Content Audit Prompt
+
+Please perform a content audit of my WordPress site.
+
+## Instructions
+
+1. Read `snapshots/site_index.json` to understand my site structure
+2. Review individual page snapshots in `snapshots/pages/`
+3. Identify issues and improvement opportunities
+
+## Audit Categories
+
+### Content Inventory
+- List all pages with title, word count estimate, and last updated date
+- Identify pages with very little content (<100 words)
+- Find orphaned pages (no internal links)
+- Check for missing critical pages (Contact, About, Privacy Policy)
+
+### Content Quality
+- Review headlines and introductions
+- Check content structure (headings hierarchy)
+- Identify pages missing calls-to-action
+
+### SEO Basics
+- Check for proper heading hierarchy (H1 → H2 → H3)
+- Identify pages without clear page titles
+- Note any duplicate content
+
+## Report Format
+
+Provide findings as a prioritized list:
+
+### Critical Issues (Fix Immediately)
+- Issue + recommendation
+
+### High Priority (Fix Soon)
+- Issue + recommendation
+
+### Improvement Opportunities
+- Suggestion + expected benefit
+
+## Next Steps
+
+After the audit, help me create a plan to address the highest-priority issues.

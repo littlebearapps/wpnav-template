@@ -1,0 +1,47 @@
+{
+  // WP Navigator Site Manifest
+  // This file defines what you WANT your site to look like.
+  // AI assistants read this file to understand your intent.
+  //
+  // Documentation: https://wpnav.ai/docs/manifest
+  // Schema version: 1
+  "$schema": "https://wpnav.ai/schemas/wpnavigator.schema.json",
+  "schema_version": 1,
+
+  // Site identity
+  "site": {
+    "name": "My WordPress Site",
+    "tagline": "Just another WordPress site",
+    "url": "https://example.com"
+  },
+
+  // Brand guidelines (optional)
+  "brand": {
+    // "primary_color": "#0073aa",
+    // "secondary_color": "#23282d",
+    // "heading_font": "System UI",
+    // "body_font": "System UI"
+  },
+
+  // Pages to manage
+  "pages": [
+    // Example page definitions:
+    // {
+    //   "slug": "home",
+    //   "title": "Home",
+    //   "template": "front-page"
+    // },
+    // {
+    //   "slug": "about",
+    //   "title": "About Us",
+    //   "template": "default"
+    // }
+  ],
+
+  // Plugins configuration
+  "plugins": {
+    // Example plugin states:
+    // "woocommerce": { "status": "active" },
+    // "contact-form-7": { "status": "active" }
+  }
+}

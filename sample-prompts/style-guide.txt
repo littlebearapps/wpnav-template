@@ -1,0 +1,47 @@
+# Style Guide Generator
+
+Please help me document my site's style guide based on the current content.
+
+## Instructions
+
+1. Read `wpnavigator.jsonc` for any existing brand settings
+2. Analyze page snapshots in `snapshots/pages/` for patterns
+3. Extract and document the visual and content style
+
+## Style Elements to Identify
+
+### Colors
+- Primary color (buttons, links, accents)
+- Secondary color
+- Background colors
+- Text colors
+
+### Typography
+- Heading font family
+- Body font family
+- Font sizes for headings and body
+
+### Voice & Tone
+- Formality level (casual, professional, technical)
+- Person (we, you, they)
+- Sentence style (short and punchy, or detailed)
+
+### Content Patterns
+- How do pages typically start?
+- Common sections (features, testimonials, CTA)
+- Button/CTA text patterns
+
+## Output
+
+Create a style guide document that includes:
+1. Brand colors with hex values
+2. Typography recommendations
+3. Voice and tone guidelines
+4. Content structure patterns
+
+## Usage
+
+The style guide will help:
+- Maintain consistency in future content
+- Guide AI assistants in content creation
+- Onboard new team members

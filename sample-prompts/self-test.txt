@@ -1,0 +1,40 @@
+# WP Navigator Self-Test Prompt
+
+Please help me verify my WP Navigator setup is working correctly.
+
+## Instructions
+
+Read the following files and validate:
+
+1. `wpnavigator.jsonc` - Check structure, required fields, valid values
+2. `snapshots/site_index.json` - Verify it exists and is valid JSON
+3. `snapshots/pages/*.json` - Check page snapshots exist
+
+## Validation Checklist
+
+For wpnavigator.jsonc:
+- [ ] File exists and is valid JSONC
+- [ ] schema_version is present (should be 1)
+- [ ] site.name is filled in (not empty)
+- [ ] site.url is a valid URL
+
+For snapshots:
+- [ ] snapshots/site_index.json exists
+- [ ] At least one page snapshot exists
+- [ ] JSON files are valid
+
+## Report Format
+
+Please provide a summary:
+- Overall Status: PASS / NEEDS ATTENTION
+- Issues found (if any)
+- Recommended next steps
+
+## After Validation
+
+If everything looks good, suggest running:
+```bash
+npx wpnav diff
+```
+
+To see how the manifest compares to the live WordPress site.

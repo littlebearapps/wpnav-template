@@ -1,0 +1,24 @@
+# WP Navigator - Ignore sensitive files
+
+# WordPress credentials (contains Application Password)
+.wpnav.env
+wp-config.json
+wpnav.config.json
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node.js (if using local tools)
+node_modules/

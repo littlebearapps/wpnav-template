@@ -1,0 +1,32 @@
+# Add Page Prompt
+
+I want to add a new page to my WordPress site using WP Navigator.
+
+## Page Details
+
+Please help me plan and create a new page with these details:
+- **Page Title**: [describe the page]
+- **Purpose**: [what is this page for?]
+- **Content Sections**: [what sections should it have?]
+
+## Process
+
+1. Review my current site structure in `snapshots/site_index.json`
+2. Propose a page structure that fits my site
+3. Update `wpnavigator.jsonc` with the new page definition
+4. Show me how to preview and apply the change
+
+## Guidelines
+
+- Match my site's existing style and tone
+- Keep the structure simple and maintainable
+- Ensure the page slug doesn't conflict with existing pages
+
+## After Planning
+
+Guide me through:
+```bash
+npx wpnav diff            # See proposed changes
+npx wpnav sync --dry-run  # Preview what will be created
+npx wpnav sync            # Apply the change
+```
